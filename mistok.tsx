@@ -36,11 +36,11 @@ const Mistok = ({ vars }: { vars: object | unknown[] }) => {
 
   const eyeIcon = svgGen(
     <path
-      key="eye-p"
+      key="e-p"
       d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"
     />,
     <circle
-      key="eye-c"
+      key="e-c"
       cx="12"
       cy="12"
       r="3"
@@ -49,7 +49,7 @@ const Mistok = ({ vars }: { vars: object | unknown[] }) => {
 
   const clipBoardIcon = svgGen(
     <rect
-      key="clip-r"
+      key="c-r"
       width="8"
       height="4"
       x="8"
@@ -58,14 +58,14 @@ const Mistok = ({ vars }: { vars: object | unknown[] }) => {
       ry="1"
     />,
     <path
-      key="clip-p"
+      key="c-p"
       d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"
     />
   )
 
   const checkIcon = svgGen(
     <path
-      strokeWidth="2"
+      key="ch-p"
       d="M20 6L9 17l-5-5"
     />
   )
