@@ -65,7 +65,7 @@ const Mistok = ({ vars }: { vars: object | unknown[] }) => {
 
   const checkIcon = svgGen(
     <path
-      stroke-width="2"
+      strokeWidth="2"
       d="M20 6L9 17l-5-5"
     />
   )
